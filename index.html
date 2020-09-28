@@ -35,10 +35,10 @@
   <body class="d-flex flex-column h-100">
     <header>
   <!-- Fixed navbar -->
-  <nav class="navbar navbar-expand-md  navbar-dark fixed-top bg-navbar">
+  <nav class="navbar navbar-expand-md  navbar-dark fixed-top bg-navbar ">
 
       <a class="navbar-brand" href="#">CoffeParty AB
-    <img src="32px-Coffee_cup_flat.svg.png" width="30" height="30" class="d-inline-block align-top" alt="Coffe" loading="lazy">
+    <img src="/img/32px-Coffee_cup_flat.svg.png" width="30" height="30" class="d-inline-block align-top" alt="Coffe" loading="lazy">
     
   </a>
     
@@ -65,14 +65,18 @@
   </nav>
 </header>
  
-<!-- Begin page content d-flex h-100 flex-shrink-0-->
+<!-- Begin page content -->
 <main role="main" class="flex-shrink-0">
 
-  <div class="container">
+  
    <section id="index">
-    <div class="row justify-content-start align-items-center mt-2">
-        <div class="col-lg-6 align-items-left d-flex">            	
-            <img class="img-fluid" src="img/g1.jpg" alt="">
+     <div class="container-fluid">
+      <div class="container justify-content-center">
+       
+    <div class="row justify-content-start align-items-center">
+       
+        <div class="col-lg-6 d-flex">            	
+            <img class="img-fluid" src="img/g1.jpg" width="300" alt="">
         </div>						
         <div class="col-lg-6">
             <h1>Vilka är vi?</h1>
@@ -85,7 +89,7 @@
     <div class="row justify-content-start align-items-center mt-2">
         <div class="col-lg-6 align-items-left d-flex">
             						
-            <img class="img-fluid" src="img/g2.jpg" alt="">
+            <img class="img-fluid" src="img/g2.jpg" width="200" alt="">
         </div>						
         <div class="col-lg-6">
             <h1>Vad gör vi?</h1>
@@ -98,7 +102,7 @@
     <div class="row justify-content-start align-items-center mt-2">
         <div class="col-lg-6 align-items-left d-flex">
             					
-            <img class="img-fluid" src="img/g3.jpg" alt="">
+            <img class="img-fluid" src="img/g3.jpg" width="300" alt="">
         </div>						
         <div class="col-lg-6">
             <h1>Varför oss?</h1>
@@ -111,7 +115,7 @@
     <div class="row justify-content-start align-items-center mt-2">
         <div class="col-lg-6 align-items-left d-flex">
            						
-            <img class="img-fluid" src="img/g4.jpg" alt="">
+            <img class="img-fluid" src="img/g4.jpg" width="300" alt="">
         </div>						
         <div class="col-lg-6">
             <h1>Kaffeparty, så fungerar det!</h1>
@@ -120,11 +124,60 @@
             </p>							
         </div>
     </div>
-    
+    </div>
     </section>
     
     <section id="produkter">
-    
+<div class="container-fluid mt-5">
+   <div class="container d-flex justify-content-center mt-50 mb-50">
+    <div class="row">
+        <div class="col-md-4 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-img-actions"> <img src="/img/free-coffee-maker-keurig.jpg" class="card-img img-fluid" width="90" height="150" alt=""> </div>
+                </div>
+                <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                        <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Keurig </a> </h6> <a href="#" class="text-muted" data-abc="true">Kapselmaskin</a>
+                    </div>
+                    <h3 class="mb-0 font-weight-semibold">399 SEK</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-img-actions"> <img src="/img/pexels-mentatdgt-1383852_2.png" class="card-img img-fluid" width="90" height="150" alt=""> </div>
+                </div>
+                <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                        <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Breville</a> </h6> <a href="#" class="text-muted" data-abc="true">Dropp kaffebryggare</a>
+                    </div>
+                    <h3 class="mb-0 font-weight-semibold">1349.95 SEK</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-img-actions"> <img src="/img/purepng.com-hand-with-coffee-makerelectronics-hand-coffee-maker-941524664150hyjmp.png" class="card-img img-fluid"  width="96" height="250" alt=""> </div>
+                </div>
+                <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                        <h6 class="font-weight-semibold mb-2"> <a href="#" class="text-default mb-2" data-abc="true">Hamilton Beach Brew Station</a> </h6> <a href="#" class="text-muted" data-abc="true">Espressomaskin</a>
+                    </div>
+                    <h3 class="mb-0 font-weight-semibold">14495 SEK</h3>
+   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>   
+   
+   
+   
+   
     </section>
     
     <section id="omoss">
@@ -135,8 +188,8 @@
 </main>
 
 <footer class="footer mt-auto py-3">
-  <div class="container">
-    <span class="text">Copyright 2020-09-25 Webmaster: Ulf Svensson.</span>
+  <div class="container text-center">
+    <span class="text ">Copyright 2020-09-25 Webmaster: Ulf Svensson.</span>
   </div>
 </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
